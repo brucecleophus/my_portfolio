@@ -1,0 +1,24 @@
+.site-footer{border-top:1px solid var(--line);background:linear-gradient(180deg,#0b1120 0%,#080d1b 100%)}
+.footer-content{padding-top:54px}
+.footer-cta{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:0 0 38px;border-bottom:1px solid var(--line)}
+.footer-cta .eyebrow{margin-bottom:8px}
+.footer-cta h2{margin:0;font:600 clamp(23px,3vw,32px)/1.2 var(--display);letter-spacing:-.045em}
+.footer-cta .button{flex:none}
+.footer-columns{display:grid;grid-template-columns:1.35fr .7fr .95fr 1.2fr;gap:48px;padding:36px 0 42px}
+.footer-about .brand{font-size:17px}
+.footer-about>p,.footer-contact>p{max-width:260px;margin:14px 0 17px;color:#8f9bb1;font-size:12px;line-height:1.8}
+.footer-socials{display:flex;gap:8px}
+.footer-socials a{width:31px;height:31px;display:grid;place-items:center;border:1px solid var(--line);border-radius:7px;background:#111a2d;color:#aeb9ce;font-size:15px;transition:color .2s,border-color .2s,background .2s}
+.footer-socials a:hover{color:#fff;border-color:var(--accent);background:#211d42}
+.footer-nav,.footer-contact{display:flex;flex-direction:column;align-items:flex-start;gap:9px}
+.footer-nav h3,.footer-contact h3{margin:2px 0 7px;color:#eef1fa;font:600 13px var(--display);letter-spacing:0}
+.footer-nav>a,.footer-contact>a{color:#929eb4;font-size:11px;transition:color .2s}
+.footer-nav>a:hover,.footer-contact>a:hover{color:#c4b8ff}
+.footer-contact>p{margin:0 0 4px}
+.footer-contact>a{display:flex;align-items:center;gap:9px}
+.footer-contact>a svg{color:#9a8aff;font-size:14px}
+.footer-bottom{min-height:52px;display:flex;align-items:center;justify-content:space-between;gap:15px;border-top:1px solid var(--line);color:#758198;font-size:9px}
+.footer-bottom a{color:#9aa6bb;transition:color .2s}
+.footer-bottom a:hover{color:#c8bdff}
+@media(max-width:850px){.footer-columns{grid-template-columns:1.2fr .8fr 1fr;gap:32px}.footer-contact{grid-column:2/4}}
+@media(max-width:580px){.footer-content{padding-top:38px}.footer-cta{align-items:flex-start;flex-direction:column;padding-bottom:27px}.footer-columns{grid-template-columns:1fr 1fr;gap:28px 20px;padding:27px 0 30px}.footer-about{grid-column:1/-1}.footer-contact{grid-column:auto}.footer-bottom{padding:13px 0;min-height:0;flex-wrap:wrap;justify-content:space-between}.footer-bottom>span:nth-child(2){display:none}}
